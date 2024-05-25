@@ -42,14 +42,28 @@
     justify-content: space-between;
 }
 
-.Logo { 
+.logo { 
 
-    font-weight: 800px;
-    font-size: 25px
-    color: #fC697A;
+    font-weight: 800;
+    font-size: 25px;
+    color: #FC697A;
+    text-transform: uppercase;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 17px;
+    padding: 20px;
+    color: #656875;
+    display: block;
     text-transform: uppercase;
 }
 
-
+.menu .navbar ul li a:hover {
+    color: #12114D;
+}
 
 
